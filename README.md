@@ -1,4 +1,4 @@
-En el fitxer Main.hs hi han s’executa a l’escriure “cabal run” i aquest executa totes les proves que s’han fet fins ara (els pantallasos d’ús que estan a cada problema) i també un programa que et demana escollir quin tipus de fractal es vol representar i depenent del triat et demana els paràmetres pertinents i et mostra el resultat per pantalla fent ús de la funció display, les opcions són les següents: 
+El fitxer Main.hs s’executa al escriure “cabal run” i aquest conté totes les proves que s’han fet fins ara (els pantallasos d’ús que estan a cada problema) i també un programa que et demana escollir quin tipus de fractal es vol representar i depenent del triat et demana els paràmetres pertinents i et mostra el resultat per pantalla fent ús de la funció display, les opcions a representar són les següents: 
 * 5 Pentagon 
 * 6 Poligon 
 * 7 Espiral 
