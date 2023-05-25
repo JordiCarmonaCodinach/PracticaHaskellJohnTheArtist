@@ -7,6 +7,9 @@ El fitxer Main.hs s’executa al escriure “cabal run” i aquest conté totes 
 * 12 Hilbert 
 * 13 Fletxa 
 * 14 Branca 
+* 15 Falguera
+* 16 Arbust
+
 
 Per exemple posem l’execució Opció 14 amb nivell 7 (display(Branca 7)): 
 
