@@ -62,7 +62,13 @@ main = do
   putStrLn "\n14- print (branca 1):"
   print (branca 1)
   
-  putStrLn "Escull la figura a representar, pots triar entre:\n 5. Pentagon\n 6. Poligon\n 7. Espiral\n 10. Triangle\n 11. Fulla\n 12. Hilbert\n 13. Fletxa\n 14. Branca\n"
+  putStrLn "\n15- print(falguera 1):"
+  print(falguera 1)
+  
+  putStrLn "\n16- print(arbust 1):"
+  print(arbust 1)
+  
+  putStrLn "Escull la figura a representar, pots triar entre:\n 5. Pentagon\n 6. Poligon\n 7. Espiral\n 10. Triangle\n 11. Fulla\n 12. Hilbert\n 13. Fletxa\n 14. Branca\n 15. Falguera\n 16. Arbust\n"
   input <- getLine
   let number = read input :: Int
   
@@ -129,6 +135,17 @@ main = do
       input' <- getLine
       let size = read input' :: Int
       display (branca size)
+      
+    15 -> do
+      putStrLn "Introdueix el nivell de la falguera:"
+      input' <- getLine
+      let size = read input' :: Int
+      display (falguera size)
+      
+    16 -> do
+      putStrLn "Introdueix el nivell de l'arbust:"
+      input' <- getLine
+      let size = read input' :: Int
+      display (arbust size)
     
     _ -> putStrLn "Opció no vàlida"
-
